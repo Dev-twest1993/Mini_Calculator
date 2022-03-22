@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+*{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.myBtn{
+    padding: 10px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+}
+
+input{
+    margin: 5px;
+}
+
+.displayBox{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(46, 45, 45);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;  
+    border-style: inset; 
+}
+
+.displayBox h3{
+    color: white;
+    font-size: 2rem;
+    
+    
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
